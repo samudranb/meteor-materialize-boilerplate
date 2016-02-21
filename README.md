@@ -47,7 +47,7 @@ A starting point for MeteorJS applications that use Material Design.
 ## <a name="file-structure"></a>File Structure and Organization
 
 Following a "module" based approach to organization.
-
+```
 my-app
 |-- .meteor
 |-- client
@@ -86,7 +86,7 @@ my-app
 |-- private
 |-- server
   |-- ...
-
+```
 
 * Client-only files are stored in the `client` directory
 * Server-only files are stored in the `server` directory
