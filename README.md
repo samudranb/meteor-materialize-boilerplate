@@ -4,7 +4,7 @@ A starting point for MeteorJS applications that use Material Design.
 
 * [Included Packages](#included-packages)
 * [Installation](#installation)
-* [File Structure](#file-structure)
+* [File Structure and Organization](#file-structure)
 * [SEO](#seo)
 * [Favicons and Touch Icons](#favicons-and-touch-icons)
 * [Seed Data](#seed-data)
@@ -32,7 +32,7 @@ A starting point for MeteorJS applications that use Material Design.
   * [Underscore.string](http://epeli.github.io/underscore.string/)
   * [gfk:mailgun-api](https://atmospherejs.com/gfk/mailgun-api)
 
-## <a name="installation"></a> Installation
+## <a name="installation"></a>Installation
 
 1. Clone this repo to `<yourapp>`
 
@@ -44,7 +44,49 @@ A starting point for MeteorJS applications that use Material Design.
 
 3. Start coding!
 
-## <a name="file-structure"></a> File Structure
+## <a name="file-structure"></a>File Structure and Organization
+
+Following a "module" based approach to organization.
+
+my-app
+|-- .meteor
+|-- client
+  |-- css
+    |-- main.css
+  |-- js
+    |-- main.js
+  |-- main.html
+|-- modules
+  |-- module1
+    |-- client
+      |-- autoform.js
+      |-- events.js
+      |-- helpers.js
+      |-- main.js
+      |-- rendered.js
+      |-- routes.js
+      |-- templates.html
+    |-- server
+      |-- main.js
+      |-- methods.js
+      |-- publish.js
+      |-- routes.js
+    |-- both
+      |-- collections.js
+  |-- module2
+    |-- ...
+  |-- ...
+|-- lib
+  |-- helpers.js
+|-- public
+  |-- fonts
+    |-- ...
+  |-- img
+    |-- ...
+|-- private
+|-- server
+  |-- ...
+
 
 * Client-only files are stored in the `client` directory
 * Server-only files are stored in the `server` directory
