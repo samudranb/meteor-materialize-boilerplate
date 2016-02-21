@@ -87,6 +87,7 @@ my-app
 |-- server
   |-- ...
 ```
+[Documentation about structuring your app](http://docs.meteor.com/#/full/structuringyourapp)
 
 * Client-only files are stored in the `client` directory
 * Server-only files are stored in the `server` directory
