@@ -1,3 +1,5 @@
+# This doesn't work because the .meteor folder has the copy of the local mongodb installation, which in this case would be the one created during `meteor create <app>`. TODO: look at using a shell script
+
 # Meteor Boilerplate - Material Design Version
 
 A starting point for MeteorJS applications that use Material Design.
